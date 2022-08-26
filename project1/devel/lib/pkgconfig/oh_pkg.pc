@@ -1,0 +1,8 @@
+prefix=/home/shrouq/oh/devel
+
+Name: oh_pkg
+Description: Description of oh_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
