@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find oh_pkg)/ohh.yaml"/>
+    <node pkg="oh_pkg" type="ccc.py" name="control" output="screen"></node>
+</launch>
